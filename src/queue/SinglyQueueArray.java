@@ -55,4 +55,11 @@ public class SinglyQueueArray {
               System.out.println("Last element :- "+arr[rear]);
           }
     }
+    public void poll(){
+        if(front == -1 || rear == -1){
+            System.out.println("Queue is Empty!!!");
+        } else {
+            System.out.println("First element :- "+arr[front]);
+        }
+    }
 }
