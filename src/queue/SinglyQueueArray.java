@@ -40,6 +40,12 @@ public class SinglyQueueArray {
         }
     }
     public void traverse(){
-
+        if(front == -1 || rear == -1){
+            System.out.println("Queue is empty!!!");
+        } else {
+            for(int i=front; i<=rear; i++){
+                System.out.println(arr[i]+" ");
+            }
+        }
     }
 }
