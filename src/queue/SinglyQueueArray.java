@@ -15,6 +15,13 @@ public class SinglyQueueArray {
         int data = scanner.nextInt();
         if(rear == arr.length-1){
             System.out.println("Queue is Full!!");
+        } else {
+            rear++;
+            arr[rear] = data;
+            System.out.println("insertion successful!!");
+            if(front == -1){
+                front=0;
+            }
         }
     }
     public  void dequeue(){
