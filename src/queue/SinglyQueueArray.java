@@ -8,4 +8,13 @@ public class SinglyQueueArray {
         rear = -1;
         front = -1;
     }
+    public void enqueue(){
+
+    }
+    public  void dequeue(){
+
+    }
+    public void traverse(){
+
+    }
 }
