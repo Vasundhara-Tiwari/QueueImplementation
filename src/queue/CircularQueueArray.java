@@ -72,4 +72,7 @@ public class CircularQueueArray {
             System.out.println("Last element :- "+arr[rear]);
         }
     }
+    public void poll(){
+
+    }
 }
