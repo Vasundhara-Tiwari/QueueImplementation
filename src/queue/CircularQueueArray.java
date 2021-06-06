@@ -65,4 +65,7 @@ public class CircularQueueArray {
             }
         }
     }
+    public void peek(){
+
+    }
 }
