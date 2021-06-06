@@ -30,4 +30,9 @@ public class CircularQueueArray {
             System.out.println("Data inserted successfully!!!");
         }
     }
+    public void dequeue(){
+        if(front == -1 || rear == -1){
+            System.out.println("Circular Queue is empty!!!");
+        }
+    }
 }
