@@ -73,6 +73,8 @@ public class CircularQueueArray {
         }
     }
     public void poll(){
-
+        if(front == -1 || rear == -1){
+            System.out.println("Queue is Empty!!!");
+        }
     }
 }
