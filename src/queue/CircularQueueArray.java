@@ -38,6 +38,9 @@ public class CircularQueueArray {
                 System.out.println("Element deleted :"+ arr[front]);
                 front = -1;
                 rear = -1;
+            } else if( front < rear) {
+                System.out.println("Element deleted :"+ arr[front]);
+                front = front + 1;
             }
         }
     }
