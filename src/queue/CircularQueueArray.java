@@ -54,7 +54,10 @@ public class CircularQueueArray {
         if(front == -1 || rear == -1){
             System.out.println("Circular Queue is empty!!!");
         } else {
-
+            if(front <= rear){
+                for(int i=front; i<=rear; i++)
+                    System.out.println(arr[i]);
+            }
         }
     }
 }
