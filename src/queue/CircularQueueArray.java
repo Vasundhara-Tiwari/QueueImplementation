@@ -57,6 +57,11 @@ public class CircularQueueArray {
             if(front <= rear){
                 for(int i=front; i<=rear; i++)
                     System.out.println(arr[i]);
+            } else {
+                for(int i=front; i<=arr.length-1; i++)
+                    System.out.println(arr[i]);
+                for(int i=0; i<=rear; i++)
+                    System.out.println(arr[i]);
             }
         }
     }
