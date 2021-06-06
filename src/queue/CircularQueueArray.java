@@ -50,4 +50,7 @@ public class CircularQueueArray {
             }
         }
     }
+    public void traverse(){
+
+    }
 }
