@@ -33,6 +33,12 @@ public class CircularQueueArray {
     public void dequeue(){
         if(front == -1 || rear == -1){
             System.out.println("Circular Queue is empty!!!");
+        } else {
+            if(front == rear){
+                System.out.println("Element deleted :"+ arr[front]);
+                front = -1;
+                rear = -1;
+            }
         }
     }
 }
