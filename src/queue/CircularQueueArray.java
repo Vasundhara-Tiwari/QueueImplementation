@@ -53,6 +53,8 @@ public class CircularQueueArray {
     public void traverse(){
         if(front == -1 || rear == -1){
             System.out.println("Circular Queue is empty!!!");
+        } else {
+
         }
     }
 }
