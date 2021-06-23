@@ -72,6 +72,38 @@ public class Main {
             }
         }
         else if(c  == 3) {
+            while (true) {
+                System.out.println("Press 1 for insertAtLast:");
+                System.out.println("Press 2 for deleteAtBegin:");
+                System.out.println("Press 3 for traverse:");
+                System.out.println("Press 4 to exit:");
+
+                int choice = scanner.nextInt();
+
+                switch (choice) {
+                    case 1:
+                        obj3.enqueue();
+                        break;
+                    case 2:
+                        obj3.dequeue();
+                        break;
+                    case 3:
+                        obj3.traverse();
+                        break;
+                    case 4:
+                        System.exit(0);
+                        break;
+                    case 5:
+                        obj3.peek();
+                        break;
+                    case 6:
+                        obj3.poll();
+                        break;
+                    default:
+                        System.out.println("Wrong choice !!!");
+                }
+            }
+        }
         }
     }
 }
