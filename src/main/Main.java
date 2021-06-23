@@ -40,6 +40,12 @@ public class Main {
                     case 4:
                         System.exit(0);
                         break;
+                    case 5:
+                        obj1.peek();
+                        break;
+                    case 6:
+                        obj1.poll();
+                        break;
                     default:
                         System.out.println("Wrong choice !!!");
                 }
