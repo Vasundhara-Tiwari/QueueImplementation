@@ -77,7 +77,8 @@ public class Main {
                 System.out.println("Press 2 for deleteAtBegin:");
                 System.out.println("Press 3 for traverse:");
                 System.out.println("Press 4 to exit:");
-
+                System.out.println("Press 5 to peek:");
+                System.out.println("Press 6 to poll:");
                 int choice = scanner.nextInt();
 
                 switch (choice) {
