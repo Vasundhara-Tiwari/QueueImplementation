@@ -18,7 +18,31 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int c = scanner.nextInt();
         if(c == 1){
+            while (true) {
+                System.out.println("Press 1 for insertAtLast:");
+                System.out.println("Press 2 for deleteAtBegin:");
+                System.out.println("Press 3 for traverse:");
+                System.out.println("Press 4 to exit:");
 
+                int choice = scanner.nextInt();
+
+                switch (choice) {
+                    case 1:
+                        obj1.enqueue();
+                        break;
+                    case 2:
+                        obj1.dequeue();
+                        break;
+                    case 3:
+                        obj1.traverse();
+                        break;
+                    case 4:
+                        System.exit(0);
+                        break;
+                    default:
+                        System.out.println("Wrong choice !!!");
+                }
+            }
         }
     }
 }
