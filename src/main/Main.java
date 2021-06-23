@@ -17,5 +17,8 @@ public class Main {
         System.out.println("Press 3 for Circular Queue");
         Scanner scanner = new Scanner(System.in);
         int c = scanner.nextInt();
+        if(c == 1){
+
+        }
     }
 }
